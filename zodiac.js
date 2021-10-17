@@ -164,11 +164,8 @@ function calculateRashi() {
         //disabling the input fields, labels & submit button
         document.getElementById("block1").style.display = "none";
 
-        //enabling the try again button 
-        document.getElementById("tryAgain").style.display = "block";
-
-        //enabling the exit button 
-        document.getElementById("exit").style.display = "block";
+        //enabling the try again& exit button 
+        document.getElementById("block3").style.display = "block";
 
         //window.alert(zodiac_sign);
         //window.open('display.html");
@@ -183,7 +180,7 @@ function calculateRashi() {
 function viewRashi() {
 
      //enabling the card id
-     document.getElementById("card").style.display = "block";
+     document.getElementById("block2").style.display = "block";
 
     img = document.createElement("img");
     if (zodiac_sign == "Aries") {
@@ -252,10 +249,10 @@ function viewRashi() {
     document.getElementById("displaySign").innerHTML = "Sunsign: " + zodiac_sign + " | " + other_name.get(zodiac_sign);
     document.getElementById("displayImage").appendChild(img);
     document.getElementById("traits").innerHTML = "Traits: ";
-    document.getElementById("1").innerHTML = "1.Ruling Planet - " + ruling_planet.get(zodiac_sign);
-    document.getElementById("2").innerHTML = "2.Birth Stone - " + birth_stones.get(zodiac_sign);
-    document.getElementById("3").innerHTML = "3.Qualities - " + quality.get(zodiac_sign);
-    document.getElementById("4").innerHTML = "4.Elemnet - " + element.get(zodiac_sign);
+    document.getElementById("one").innerHTML = "1.Ruling Planet - " + ruling_planet.get(zodiac_sign);
+    document.getElementById("two").innerHTML = "2.Birth Stone - " + birth_stones.get(zodiac_sign);
+    document.getElementById("three").innerHTML = "3.Qualities - " + quality.get(zodiac_sign);
+    document.getElementById("four").innerHTML = "4.Elemnet - " + element.get(zodiac_sign);
     document.getElementById("greeting").innerHTML = "Thank You!!";
 
 }
@@ -274,13 +271,11 @@ function tryAgain() {
         document.getElementById("block1").style.display = "block";
 
         //disabling the card id
-        document.getElementById("card").style.display = "none";
+        document.getElementById("block2").style.display = "none";
 
-        //disabling itself
-        document.getElementById("tryAgain").style.display = "none";
+        //disabling the try again& exit button 
+        document.getElementById("block3").style.display = "none";
 
-        //disabling the exit button 
-        document.getElementById("exit").style.display = "none";
     } catch (error) {
         window.alert(error);
     }
