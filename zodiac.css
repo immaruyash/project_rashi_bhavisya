@@ -1,0 +1,50 @@
+#block1{
+    border-radius: 5px;
+    background-color: grey;
+    padding: 20px;
+    width:50%;
+    margin-left:25%;
+}
+
+#fname, #bdate {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.4s;
+    outline: none;
+  }
+  #fname:focus, #bdate:focus {
+    border: 3px solid #555;
+  }
+
+  #fnameLabel, #bdateLabel{
+    font-family: fantasy;
+    font-size: larger;
+    color:rgb(14, 13, 37);
+  }
+  
+  .submit {
+    width: 50%;
+    color: black;
+    padding: 10px 10px;
+    margin: 3% 0 0 25%;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+.submit {
+    background-color: rgb(200, 233, 203); 
+    color: black; 
+    border: 2px solid #000000;
+}
+.submit:hover {
+    background-color: #1f1d1d;
+    color: white;
+}

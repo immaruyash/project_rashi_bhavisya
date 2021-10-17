@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./zodiac.css">
+    <script src="./zodiac.js"></script>
+    <!--<link rel="icon" href="">-->
+    <title>What's Your Rashi..</title>
+</head>
+<body>
+    <div id="block1">
+        <form id="myForm" action="#" onsubmit="calculateRashi(); return false;" method="post" required>
+            <label for="fname" id="fnameLabel">Name:</label>
+            <input type="text" name="fname" id="fname" placeholder="Please enter your first name....."><br>
+            <label for="bdate" id="bdateLabel">Date of Birth:</label>
+            <input type="date" name="bdate" id="bdate" value=""><br>
+            <button type="submit" class="submit" id="submit" >Submit</button>
+        </form>
+    </div>
+    <br><br>
+    <div id="block2">
+        <div id="card">
+            <div id="info"></div>
+            <div id="displayName"></div>
+            <div id="displaySign"></div>
+            <div id="displayImage"></div>
+            <div id="traits"></div>
+            <div id="1"></div>
+            <div id="2"></div>
+            <div id="3"></div>
+            <div id="4"></div>
+            <br><br>
+            <div id="greeting"></div>
+        </div>
+    </div>
+    <br><br>
+    <div id="block3">
+        <div id="tryAgainButton">
+            <button type="submit" id="tryAgain" style="display: none;" onclick="tryAgain();">
+                Try Again</button>
+        </div>
+        <div id="closeButton">
+            <button type="button" id="exit" style="display: none;" onclick="javascript:window.close()">Exit</button>
+    
+        </div>
+    </div>
+</body>
+</html>
