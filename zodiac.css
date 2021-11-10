@@ -117,7 +117,7 @@ body{
     text-decoration: underline;
 }
 #displayImage, #displayName, #displaySign, #traits, #one, #two, #three, #four{
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     color:palegoldenrod;
     font-weight: bold;
 }
