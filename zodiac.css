@@ -114,10 +114,12 @@ body{
     justify-content: center;
     color: palegoldenrod;
     text-decoration: underline;
+    font-family: fantasy;
 }
 #displayImage, #displayName, #displaySign, #traits, #one, #two, #three, #four{
     color:palegoldenrod;
     font-weight: bold;
+    font-family: fantasy;
 }
 #greeting{
     padding-top: 20px;
@@ -128,4 +130,5 @@ body{
     color:palegoldenrod;
     font-weight: bolder;
     font-size: xx-large;
+    font-family: fantasy;
 }
