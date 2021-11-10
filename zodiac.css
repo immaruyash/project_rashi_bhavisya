@@ -110,14 +110,12 @@ body{
 #info{
     font-weight: bolder;
     font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
     color: palegoldenrod;
     text-decoration: underline;
 }
 #displayImage, #displayName, #displaySign, #traits, #one, #two, #three, #four{
-    font-family: Arial, Helvetica, sans-serif;
     color:palegoldenrod;
     font-weight: bold;
 }
@@ -125,7 +123,6 @@ body{
     padding-top: 20px;
     display: flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
     font-style: oblique;
     text-decoration:underline;
     color:palegoldenrod;
